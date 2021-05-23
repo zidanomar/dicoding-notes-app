@@ -7,7 +7,7 @@ const init = async () => {
     host: process.env.NODE_ENV !== 'production' ? 'localhost' : '172.31.36.140',
     routes: {
       cors: {
-        origin: ['http://notesapp-v1.dicodingacademy.com'],
+        origin: ['*'],
       },
     },
   });
